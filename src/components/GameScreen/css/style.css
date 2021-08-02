@@ -61,6 +61,7 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    list-style: none;
 }
 
 .answ-list-item {
@@ -170,15 +171,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
+/* SVG styles selected answer*/
 .selected-answ .answer-svg .main-path {
     fill: #FFF3EB;
 }
@@ -189,12 +182,7 @@
     stroke: #FF8B37;
 }
 
-.selected-answ:hover .answer-svg .right-stick,
-.selected-answ:hover .answer-svg .left-stick,
-.selected-answ:hover .answer-svg .main-path {
-    stroke: #FF8B37;
-}
-
+/* SVG styles right answer*/
 .right-answer .answer-svg .main-path {
     fill: #E6FAEA;
 }
@@ -211,6 +199,7 @@
     stroke: #47D867;
 }
 
+/* SVG styles wrong answer*/
 .wrong-answer .answer-svg .main-path {
     fill: #FDEEED;
 }
@@ -227,6 +216,7 @@
     stroke: #EC6259;
 }
 
+/* SVG styles active prize highlight*/
 .active-prize {
     color: #FF8B37;
 }
@@ -237,6 +227,7 @@
     stroke: #FF8B37;
 }
 
+/* SVG styles past prize*/
 .past-prize {
     color: #D0D0D8;
 }

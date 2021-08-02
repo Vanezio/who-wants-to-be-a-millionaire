@@ -34,11 +34,11 @@
 }
 
 .text-content .score-text{
-    font-weight: 600;
-    font-size: 5.6rem;
     line-height: 116%;
     min-width: 1.5ch;
     margin-top: 1.0rem;
+    font-size: 5.6rem;
+    font-weight: 600;
 }
 
 @media(max-width: 1200px) {

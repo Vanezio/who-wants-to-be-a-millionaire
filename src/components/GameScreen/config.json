@@ -20,8 +20,7 @@
                 "truth": "false"
             }
         ],
-        "prize": "1,000",
-        "answered": "false"
+        "prize": "1,000"
         },
         {
             "text": "USA has land borders with",
@@ -43,8 +42,7 @@
                     "truth": "false"
                 }
             ],
-            "prize": "2,000",
-            "answered": "false"
+            "prize": "2,000"
         },
         {
             "text": "Japan has land borders with",
@@ -66,8 +64,7 @@
                     "truth": "false"
                 }
             ],
-            "prize": "4,000",
-            "answered": "false"
+            "prize": "4,000"
         },
         {
             "text": " Bosnia and Herzegovina has land borders with",
@@ -89,8 +86,7 @@
                     "truth": "false"
                 }
             ],
-            "prize": "1,000,000",
-            "answered": "false"
+            "prize": "1,000,000"
         },
         {
             "text": "Andorra has land borders with",
@@ -112,8 +108,7 @@
                     "truth": "false"
                 }
             ],
-            "prize": "8,000",
-            "answered": "false"
+            "prize": "8,000"
         },
         {
             "text": "Denmark has land borders with",
@@ -135,8 +130,7 @@
                     "truth": "false"
                 }
             ],
-            "prize": "32,000",
-            "answered": "false"
+            "prize": "32,000"
         },
         {
             "text": "Republic of Ireland has land borders with",
@@ -158,8 +152,7 @@
                     "truth": "false"
                 }
             ],
-            "prize": "16,000",
-            "answered": "false"
+            "prize": "16,000"
         },
         {
             "text": "Turkey has land borders with",
@@ -181,8 +174,7 @@
                     "truth": "false"
                 }
             ],
-            "prize": "64,000",
-            "answered": "false"
+            "prize": "64,000"
         },
         {
             "text": "China has land borders with",
@@ -204,8 +196,7 @@
                     "truth": "false"
                 }
             ],
-            "prize": "125,000",
-            "answered": "false"
+            "prize": "125,000"
         },
         {
             "text": "Slovakia has land borders with",
@@ -227,8 +218,7 @@
                     "truth": "false"
                 }
             ],
-            "prize": "250,000",
-            "answered": "false"
+            "prize": "250,000"
         },
         {
             "text": "Poland has land borders with",
@@ -250,8 +240,7 @@
                     "truth": "true"
                 }
             ],
-            "prize": "500,000",
-            "answered": "false"
+            "prize": "500,000"
         },
         {
             "text": "Belgium has land borders with",
@@ -273,8 +262,7 @@
                     "truth": "true"
                 }
             ],
-            "prize": "500",
-            "answered": "false"
+            "prize": "500"
         }
     ]
   }

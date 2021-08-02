@@ -2,7 +2,7 @@
 
 If you wanna play just follow the link - [link](link)
 
-## To tun it localy
+## To run it localy
 
 Simply follow this tips:
 

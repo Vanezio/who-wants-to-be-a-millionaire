@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/who-wants-to-be-a-millionaire/static/css/main.5517ef32.chunk.css",
+    "main.js": "/who-wants-to-be-a-millionaire/static/js/main.46ac36c0.chunk.js",
+    "main.js.map": "/who-wants-to-be-a-millionaire/static/js/main.46ac36c0.chunk.js.map",
+    "runtime-main.js": "/who-wants-to-be-a-millionaire/static/js/runtime-main.2e8efc4f.js",
+    "runtime-main.js.map": "/who-wants-to-be-a-millionaire/static/js/runtime-main.2e8efc4f.js.map",
+    "static/js/2.1be8b882.chunk.js": "/who-wants-to-be-a-millionaire/static/js/2.1be8b882.chunk.js",
+    "static/js/2.1be8b882.chunk.js.map": "/who-wants-to-be-a-millionaire/static/js/2.1be8b882.chunk.js.map",
+    "index.html": "/who-wants-to-be-a-millionaire/index.html",
+    "static/css/main.5517ef32.chunk.css.map": "/who-wants-to-be-a-millionaire/static/css/main.5517ef32.chunk.css.map",
+    "static/js/2.1be8b882.chunk.js.LICENSE.txt": "/who-wants-to-be-a-millionaire/static/js/2.1be8b882.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/who-wants-to-be-a-millionaire/static/media/Inter-VariableFont_slnt,wght.f958c681.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e8efc4f.js",
+    "static/js/2.1be8b882.chunk.js",
+    "static/css/main.5517ef32.chunk.css",
+    "static/js/main.46ac36c0.chunk.js"
+  ]
+}

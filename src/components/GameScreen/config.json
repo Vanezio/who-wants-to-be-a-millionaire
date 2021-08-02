@@ -1,0 +1,280 @@
+{
+    "questions": [        
+        {
+        "text": "Ukraine has land borders with",
+        "answers": [
+            {
+                "text": "Poland",
+                "truth": "true"
+            },
+            {
+                "text": "USA",
+                "truth": "false"
+            },
+            {
+                "text": "Canada",
+                "truth": "false"
+            },
+            {
+                "text": "Germany",
+                "truth": "false"
+            }
+        ],
+        "prize": "1,000",
+        "answered": "false"
+        },
+        {
+            "text": "USA has land borders with",
+            "answers": [
+                {
+                    "text": "Brazil",
+                    "truth": "false"
+                },
+                {
+                    "text": "Mexico",
+                    "truth": "true"
+                },
+                {
+                    "text": "France",
+                    "truth": "false"
+                },
+                {
+                    "text": "Belarus",
+                    "truth": "false"
+                }
+            ],
+            "prize": "2,000",
+            "answered": "false"
+        },
+        {
+            "text": "Japan has land borders with",
+            "answers": [
+                {
+                    "text": "China",
+                    "truth": "false"
+                },
+                {
+                    "text": "South Korea",
+                    "truth": "false"
+                },
+                {
+                    "text": "No one",
+                    "truth": "true"
+                },
+                {
+                    "text": "Nigeria",
+                    "truth": "false"
+                }
+            ],
+            "prize": "4,000",
+            "answered": "false"
+        },
+        {
+            "text": " Bosnia and Herzegovina has land borders with",
+            "answers": [
+                {
+                    "text": "Croatia",
+                    "truth": "true"
+                },
+                {
+                    "text": "Ukraine",
+                    "truth": "false"
+                },
+                {
+                    "text": "Switzerland",
+                    "truth": "false"
+                },
+                {
+                    "text": "Andorra",
+                    "truth": "false"
+                }
+            ],
+            "prize": "1,000,000",
+            "answered": "false"
+        },
+        {
+            "text": "Andorra has land borders with",
+            "answers": [
+                {
+                    "text": "France",
+                    "truth": "true"
+                },
+                {
+                    "text": "Spain",
+                    "truth": "true"
+                },
+                {
+                    "text": "Italy",
+                    "truth": "false"
+                },
+                {
+                    "text": "Vatican",
+                    "truth": "false"
+                }
+            ],
+            "prize": "8,000",
+            "answered": "false"
+        },
+        {
+            "text": "Denmark has land borders with",
+            "answers": [
+                {
+                    "text": "Germany",
+                    "truth": "true"
+                },
+                {
+                    "text": "Finland",
+                    "truth": "false"
+                },
+                {
+                    "text": "Sweden",
+                    "truth": "false"
+                },
+                {
+                    "text": "UK",
+                    "truth": "false"
+                }
+            ],
+            "prize": "32,000",
+            "answered": "false"
+        },
+        {
+            "text": "Republic of Ireland has land borders with",
+            "answers": [
+                {
+                    "text": "UK",
+                    "truth": "true"
+                },
+                {
+                    "text": "France",
+                    "truth": "false"
+                },
+                {
+                    "text": "Syria",
+                    "truth": "false"
+                },
+                {
+                    "text": "Egypt",
+                    "truth": "false"
+                }
+            ],
+            "prize": "16,000",
+            "answered": "false"
+        },
+        {
+            "text": "Turkey has land borders with",
+            "answers": [
+                {
+                    "text": "Greece",
+                    "truth": "true"
+                },
+                {
+                    "text": "Ukraine",
+                    "truth": "false"
+                },
+                {
+                    "text": "Syria",
+                    "truth": "true"
+                },
+                {
+                    "text": "Saudi Arabia",
+                    "truth": "false"
+                }
+            ],
+            "prize": "64,000",
+            "answered": "false"
+        },
+        {
+            "text": "China has land borders with",
+            "answers": [
+                {
+                    "text": "India",
+                    "truth": "true"
+                },
+                {
+                    "text": "Mongolia",
+                    "truth": "true"
+                },
+                {
+                    "text": "North Korea",
+                    "truth": "true"
+                },
+                {
+                    "text": "Serbia",
+                    "truth": "false"
+                }
+            ],
+            "prize": "125,000",
+            "answered": "false"
+        },
+        {
+            "text": "Slovakia has land borders with",
+            "answers": [
+                {
+                    "text": "Slovenia",
+                    "truth": "false"
+                },
+                {
+                    "text": "Ukraine",
+                    "truth": "true"
+                },
+                {
+                    "text": "Czech Republic",
+                    "truth": "true"
+                },
+                {
+                    "text": "Germany",
+                    "truth": "false"
+                }
+            ],
+            "prize": "250,000",
+            "answered": "false"
+        },
+        {
+            "text": "Poland has land borders with",
+            "answers": [
+                {
+                    "text": "Bangladesh",
+                    "truth": "false"
+                },
+                {
+                    "text": "Canada",
+                    "truth": "false"
+                },
+                {
+                    "text": "China",
+                    "truth": "false"
+                },
+                {
+                    "text": "Germany",
+                    "truth": "true"
+                }
+            ],
+            "prize": "500,000",
+            "answered": "false"
+        },
+        {
+            "text": "Belgium has land borders with",
+            "answers": [
+                {
+                    "text": "Portugal",
+                    "truth": "false"
+                },
+                {
+                    "text": "Spain",
+                    "truth": "false"
+                },
+                {
+                    "text": "Ukraine",
+                    "truth": "false"
+                },
+                {
+                    "text": "Netherlands",
+                    "truth": "true"
+                }
+            ],
+            "prize": "500",
+            "answered": "false"
+        }
+    ]
+  }

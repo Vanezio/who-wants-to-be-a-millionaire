@@ -1,0 +1,62 @@
+.answer-field {
+    position: relative;
+    cursor: pointer;
+}
+
+.answer-index {
+    font-weight: 600;
+    position: absolute;
+    font-size: 2.0rem;
+    top: 50%;
+    left: 4.5rem;
+    transform: translateY(-50%);
+    color: #FF8B37;
+    user-select: none;
+}
+
+.answer-text {
+    font-weight: 400;
+    position: absolute;
+    font-size: 2.0rem;
+    top: 50%;
+    left: 7.0rem;
+    transform: translateY(-50%);
+    max-width: 25ch;
+    user-select: none;
+}
+
+
+@media (max-width: 500px) {
+    .answer-index,
+    .answer-text {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+.answer-field:hover .answer-svg .right-stick,
+.answer-field:hover .answer-svg .left-stick,
+.answer-field:hover .answer-svg .main-path {
+    stroke: #FF8B37;
+}
+
+.answer-selected .answer-svg .main-path {
+    fill: #FFF3EB;
+}
+
+.answer-selected .answer-svg .right-stick,
+.answer-selected .answer-svg .left-stick,
+.answer-selected .answer-svg .main-path {
+    stroke: #FF8B37;
+}
+
+
+@media (max-width: 800px) {
+    
+}

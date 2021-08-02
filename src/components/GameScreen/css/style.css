@@ -1,0 +1,242 @@
+.game-page{
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    padding-right: 37.6rem;
+}
+
+.game-container {
+    width: 100%;
+    background-color: #E5E5E5;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.prize-burger {
+    display: none
+}
+
+.prize-container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 37.6rem;
+    height: 100vh;
+    background-color: white;
+    justify-content: center;
+}
+
+.game-content {
+    width: 100%;
+    height: 100%;
+    padding: 12.0rem 8.0rem 0;
+    box-sizing: border-box;
+}
+
+.quest-container {
+    height: 40vh;
+}
+
+.quest-text {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 3.7rem;
+    height: 100%;
+    overflow: auto;
+}
+
+.answ-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.answ-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.answ-list-item {
+    position: relative;
+    margin: 1.6rem 0;
+    width: 42.0rem;
+}
+
+.answ-list-item::marker {
+    position: absolute;
+}
+
+.prize-list {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: safe center;
+    width: 100%;
+    overflow-y: auto;
+    height: 100vh;
+    padding: 3.0rem 0;
+    box-sizing: border-box;
+}
+
+.prize-list-item {
+    margin: 0.4rem 0;
+}
+
+.prize-field {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1350px) {
+
+    .game-page {
+        padding-right: 0;
+    }
+
+    .prize-container {
+        display: none;
+    }
+
+    .show-prizes {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #E5E5E5;
+    }
+
+    .prize-burger {
+        display: block;
+        position: absolute;
+        width: 3.0rem;
+        top: 2.0rem;
+        right: 2.0rem;
+        z-index: 1000;
+        cursor: pointer;
+    }
+
+    .prize-list {
+        width: 40.0rem;
+        padding: 0.5rem 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .game-content{
+        padding: 1.0rem 0rem;
+    }
+
+    .quest-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .quest-text {
+        font-size: 1.8rem;
+        line-height: 2.1rem;  
+        text-align: center;
+        height: auto;
+    }
+
+    .answ-list {
+        display: block;
+    }
+
+    .answ-list-item {
+        margin: 0.4rem 0;
+        width: 100%;
+    }
+
+    .prize-burger {
+        width: 1.6rem;
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .prize-list-item {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.selected-answ .answer-svg .main-path {
+    fill: #FFF3EB;
+}
+
+.selected-answ .answer-svg .right-stick,
+.selected-answ .answer-svg .left-stick,
+.selected-answ .answer-svg .main-path {
+    stroke: #FF8B37;
+}
+
+.selected-answ:hover .answer-svg .right-stick,
+.selected-answ:hover .answer-svg .left-stick,
+.selected-answ:hover .answer-svg .main-path {
+    stroke: #FF8B37;
+}
+
+.right-answer .answer-svg .main-path {
+    fill: #E6FAEA;
+}
+
+.right-answer .answer-svg .right-stick,
+.right-answer .answer-svg .left-stick,
+.right-answer .answer-svg .main-path {
+    stroke: #47D867;
+}
+
+.right-answer:hover .answer-svg .right-stick,
+.right-answer:hover .answer-svg .left-stick,
+.right-answer:hover .answer-svg .main-path {
+    stroke: #47D867;
+}
+
+.wrong-answer .answer-svg .main-path {
+    fill: #FDEEED;
+}
+
+.wrong-answer .answer-svg .right-stick,
+.wrong-answer .answer-svg .left-stick,
+.wrong-answer .answer-svg .main-path {
+    stroke: #EC6259;
+}
+
+.wrong-answer:hover .answer-svg .right-stick,
+.wrong-answer:hover .answer-svg .left-stick,
+.wrong-answer:hover .answer-svg .main-path {
+    stroke: #EC6259;
+}
+
+.active-prize {
+    color: #FF8B37;
+}
+
+.active-prize .prize-svg .right-stick,
+.active-prize .prize-svg .left-stick,
+.active-prize .prize-svg .main-path {
+    stroke: #FF8B37;
+}
+
+.past-prize {
+    color: #D0D0D8;
+}

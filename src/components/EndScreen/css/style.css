@@ -82,5 +82,6 @@
 
     .end-page .content-container .score-text{
         font-size: 3.2rem;
+        word-break: break-word;
     }
 }

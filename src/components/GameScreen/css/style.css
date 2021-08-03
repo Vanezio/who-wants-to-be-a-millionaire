@@ -69,6 +69,7 @@
     margin: 1.6rem 0;
     width: 42.0rem;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .prize-list {

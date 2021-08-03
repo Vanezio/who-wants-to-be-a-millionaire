@@ -68,10 +68,7 @@
     position: relative;
     margin: 1.6rem 0;
     width: 42.0rem;
-}
-
-.answ-list-item::marker {
-    position: absolute;
+    user-select: none;
 }
 
 .prize-list {

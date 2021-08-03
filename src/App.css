@@ -9,8 +9,8 @@ html {
   font-size: 10px;
 }
 
-body {
-  font-family: "Inter" !important;
+* {
+  font-family: "Inter", sans-serif !important;
 }
 
 @media (min-width: 2560px) {

@@ -1,6 +1,6 @@
 # Who wants to be a millionaire?
 
-If you wanna play just follow the link - [link](link)
+If you wanna play just follow the link - [https://vanezio.github.io/who-wants-to-be-a-millionaire/](https://vanezio.github.io/who-wants-to-be-a-millionaire/)
 
 ## To run it localy
 

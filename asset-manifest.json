@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/who-wants-to-be-a-millionaire/static/css/main.5517ef32.chunk.css",
-    "main.js": "/who-wants-to-be-a-millionaire/static/js/main.46ac36c0.chunk.js",
-    "main.js.map": "/who-wants-to-be-a-millionaire/static/js/main.46ac36c0.chunk.js.map",
+    "main.js": "/who-wants-to-be-a-millionaire/static/js/main.649945eb.chunk.js",
+    "main.js.map": "/who-wants-to-be-a-millionaire/static/js/main.649945eb.chunk.js.map",
     "runtime-main.js": "/who-wants-to-be-a-millionaire/static/js/runtime-main.2e8efc4f.js",
     "runtime-main.js.map": "/who-wants-to-be-a-millionaire/static/js/runtime-main.2e8efc4f.js.map",
     "static/js/2.1be8b882.chunk.js": "/who-wants-to-be-a-millionaire/static/js/2.1be8b882.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.2e8efc4f.js",
     "static/js/2.1be8b882.chunk.js",
     "static/css/main.5517ef32.chunk.css",
-    "static/js/main.46ac36c0.chunk.js"
+    "static/js/main.649945eb.chunk.js"
   ]
 }

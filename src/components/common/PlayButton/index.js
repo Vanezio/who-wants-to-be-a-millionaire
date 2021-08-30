@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
+import Context from '../../../contexts/context';
 import './css/style.css';
 
-const PlayButton = ({ text, changePageChild, funcValue }) => (
-        <button className="play-button" onClick={() => { changePageChild(funcValue); }}>{text}</button>
-);
+const PlayButton = ({ text, funcValue }) => {
+  const { screenDispatch } = useContext(Context);
+
+  return (<button className="play-button" onClick={() => {
+    screenDispatch({
+      type: 'CHANGE',
+      payload: funcValue,
+    });
+  }}>{text}</button>);
+};
 
 PlayButton.propTypes = {
   text: PropTypes.string,
-  changePageChild: PropTypes.func,
   funcValue: PropTypes.string,
 };
 

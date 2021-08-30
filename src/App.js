@@ -1,5 +1,8 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, { useReducer } from 'react';
+import Context from './contexts/context';
+import screeReducer from './reducers/screenReducer';
+import prizeReducer from './reducers/prizeReducer';
 
 import {
   StartScreen,
@@ -9,41 +12,33 @@ import {
 
 function App() {
   // useState stores which screen should be rendered
-  const [pageState, setPageState] = useState();
+  const [screenState, screenDispatch] = useReducer(screeReducer, '');
   // useState stores prize value
-  const [activePrize, setActivePrize] = useState('0');
-
-  // functions to pass to the child so it can change parents useState
-  // function to change pages
-  const changePageChild = (val) => {
-    setPageState(val);
-  };
-
-  // function to return prize
-  const returnActivePrize = (val) => {
-    setActivePrize(val);
-  };
+  const [prizeState, prizeDispatch] = useReducer(prizeReducer, '');
 
   // returns needed page component, returns start page by default
   const returnPage = () => {
-    switch (pageState) {
+    switch (screenState) {
       default:
-        return <StartScreen changePageChild={changePageChild}/>;
+        return <StartScreen/>;
       case 'game':
-        return <GameScreen changePageChild={changePageChild}
-        returnActivePrize={returnActivePrize} />;
+        return <GameScreen/>;
       case 'end':
-        return <EndScreen changePageChild={changePageChild}
-        prize={activePrize} />;
+        return <EndScreen prize={prizeState} />;
     }
   };
 
   return (
-    <div className="App">
-      <div className="page-viewer">
-        {returnPage()}
+    <Context.Provider value={{
+      screenDispatch,
+      prizeDispatch,
+    }}>
+      <div className="App">
+        <div className="page-viewer">
+          {returnPage()}
+        </div>
       </div>
-    </div>
+    </Context.Provider>
   );
 }
 

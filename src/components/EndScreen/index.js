@@ -4,7 +4,7 @@ import { PlayButton } from '../common';
 import { ThumbsUp } from '../SVGs';
 import './css/style.css';
 
-const EndScreen = ({ changePageChild, prize }) => (
+const EndScreen = ({ prize }) => (
     <div id="endPage" className="end-page">
         <div className="main-container">
             <div className="thumb-svg">
@@ -16,7 +16,6 @@ const EndScreen = ({ changePageChild, prize }) => (
                     <h2 className="score-text">${prize} earned</h2>
                 </div>
                 <PlayButton text="Try again"
-                    changePageChild={changePageChild}
                     funcValue="game"></PlayButton>
             </div>
         </div>
@@ -24,7 +23,6 @@ const EndScreen = ({ changePageChild, prize }) => (
 );
 
 EndScreen.propTypes = {
-  changePageChild: PropTypes.func,
   prize: PropTypes.string,
 };
 

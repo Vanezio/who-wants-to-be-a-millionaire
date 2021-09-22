@@ -10,7 +10,7 @@ import './css/style.css';
 
 const GameScreen = () => {
   // Variable that stores all questions from JSON file
-  const [...questions] = configData.questions;
+  const questions = [...configData.questions];
 
   // Sorting questions by size of a prize
   questions.sort((a, b) => a.prize.replace(/[^0-9]/g, '') - b.prize.replace(/[^0-9]/g, ''));
@@ -41,6 +41,7 @@ const GameScreen = () => {
         if (questions.length > activeQuestionIndex + 1) {
           setActiveQuestionIndex(activeQuestionIndex + 1);
         } else {
+          // questions = [];
           prizeDispatch({
             type: 'UPDATE',
             payload: questions[activeQuestionIndex].prize,
@@ -63,7 +64,10 @@ const GameScreen = () => {
         type: 'UPDATE',
         payload: questions[activeQuestionIndex - 1].prize,
       });
-    } else prizeDispatch({ type: 'UPDATE', payload: '0' });
+    } else {
+      // questions = [];
+      prizeDispatch({ type: 'UPDATE', payload: '0' });
+    }
     setTimeout(() => screenDispatch({ type: 'CHANGE', payload: 'end' }), 1000);
   };
 
@@ -132,6 +136,18 @@ const GameScreen = () => {
   useEffect(() => {
     setRightChosen([]);
   }, [activeQuestionIndex]);
+
+  useEffect(() => () => {
+    // clears from chosen properties on unmount
+    questions.forEach((el) => {
+      el.answers.forEach((answer) => {
+        if (answer.chosen) {
+          answer.chosen = undefined;
+          delete (answer.chosen);
+        }
+      });
+    });
+  }, []);
 
   // array of prize elements
   const prizeList = questions
